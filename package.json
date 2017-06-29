@@ -1,0 +1,26 @@
+{
+  "name": "zym",
+  "version": "0.1.0",
+  "description": "custom wordpress theme - zym",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "fittext": "^1.0.1",
+    "fullcalendar": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.5.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1",
+    "moment": "^2.18.1",
+    "wowjs": "^1.1.3"
+  },
+  "license": "MIT"
+}

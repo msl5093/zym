@@ -1,0 +1,769 @@
+/* global */
+html, 
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /*background: #ededed;*/
+    background: #fafafa;
+}
+
+h1, h2, h3, a, p, li {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    letter-spacing: .00625em;
+    line-height: 1.6;
+}
+
+h4 {
+	font-family: 'Helvetica', Arial, sans-serif;
+}
+
+a {
+    -webkit-transition: all 0.33333s ease-in-out;
+    -moz-transition: all 0.33333s ease-in-out;
+    -o-transition: all 0.33333s ease-in-out;
+    transition: all 0.33333s ease-in-out;
+}
+
+.tile {
+    /*background: #fafafa;*/
+    background: #fff;
+    padding: 1.5625em 1.5625em 1.25em;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.external-link {
+    text-decoration: none;
+    color: #424242;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+.external-link:focus,
+.external-link:hover {
+    color: #006064;
+    text-decoration: none;
+    background-color: #ffe0b2;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: rgb(51, 51, 51);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    border-color: rgb(51, 51, 51);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fafafa;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+    color: #fafafa;
+}
+
+.navbar-default .nav > li>a,
+.navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fafafa;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #fafafa;
+}
+
+.navbar-default .nav > li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #fafafa;
+    background-color: transparent;
+}
+
+.navbar-default .nav > li.active>a:hover,
+.navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        background-color: rgb(51, 51, 51);
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: #fafafa; /*#fafafa*/
+    }
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #fafafa; /*#fafafa*/
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #fafafa; /*#fafafa*/
+    }
+    
+    .nav > li:hover {
+        background-color: #fafafa; /*#fafafa*/
+        -webkit-transition: all 0.33333s ease-in-out;
+        -moz-transition: all 0.33333s ease-in-out;
+        -o-transition: all 0.33333s ease-in-out;
+        transition: all 0.33333s ease-in-out;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #222;
+    }
+
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 14px;
+        color: #fafafa;
+    }
+
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #fafafa;
+    }
+
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #fafafa;
+    }
+
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #fafafa;
+    }
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fafafa;
+}
+
+.nav-logo-wrapper {
+    width: 100%;
+    max-height: 50px;
+}
+
+@media(min-width:768px) {
+    #nav-logo-svg {
+        width: 100%;
+        max-width: 42%;
+    }
+}
+
+@media(max-width:480px) {
+    #nav-logo-svg {
+        max-width: 13%;
+    }
+}
+
+/* hero */
+header {
+	background-image: url(../img/header-banner.jpeg);
+	background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+	min-height: 100%;
+    margin-bottom: 2%;
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', 'sans serif';
+    font-weight: 500;
+	font-size: 5em;
+    color: #000022;
+}
+
+header .header-content .header-content-inner h3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'sans serif';
+    font-weight: 500;
+    letter-spacing: .1em;
+	font-size: 3em;
+    color: #000022;
+}
+
+header .header-content .header-content-inner p {
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'sans serif';
+    font-weight: 300;
+    letter-spacing: .1em;
+	font-size: 1em;
+    color: #404040;
+}
+
+header .header-content .header-content-inner a {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+@media(min-width:768px) {
+    header {
+        min-height: 100%;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+}
+
+/* blog roll styles (home, archive, search) */
+@media(max-width:480px) {
+	.col-md-8 {
+		padding-bottom: 2em;
+	}
+}
+
+.post-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: #222;
+}
+
+.post-title a:hover,
+.post-title a:focus {
+	color: #006064;
+}
+
+.meta-data {
+    font-weight: 100;
+    font-style: italic;
+    font-size: .9em;
+    letter-spacing: .00625em;
+    line-height: 1.6;
+    border-top: solid;
+    border-width: 1px;
+}
+
+.small-tile-img {
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+.featured-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: 50%;
+}
+
+.feat-img-container {
+    background-image: url(../img/aerial.jpg);
+	background-repeat: no-repeat;
+	min-height: 100%;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.feat-img-container1 {
+    background-image: url(../img/meditation-banner.jpeg);
+	background-repeat: no-repeat;
+	min-height: 100%;
+    position: relative;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.feat-img-container-inner {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    top: 80px;
+}
+
+.feat-img-container a,
+.feat-img-container1 a {
+    text-decoration: none;
+    color: #fff;
+    background: #222;
+    padding: 5px;
+}
+
+.feat-img-container a:focus,
+.feat-img-container a:hover,
+.feat-img-container1 a:focus,
+.feat-img-container1 a:hover {
+    color: #006064;
+}
+
+.feat-img-container h2,
+.feat-img-container1 h2 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.post-tags {
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.post-tags a {
+    text-decoration: none;
+}
+
+.post-tags a:focus,
+.post-tags a:hover {
+    color: #006064;
+}
+
+@media(min-width:481px) and (max-width:768px) {
+    .col-md-8 {
+        padding-bottom: 15px;
+    }
+}
+
+@media(min-width:992px) {
+    .blog-roll-right {
+        max-height: 150px;
+    }
+}
+
+/* page and single post styles */
+.img-caption {
+    margin-top: -2px;
+    border: .5px solid;
+    border-top: none;
+    font-size: .75em;
+    font-weight: 300;
+    padding: 1em;
+    border-color: #424242;
+}
+
+.img-caption p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-header-left {
+    border-left: solid;
+    border-color: #424242;
+}
+
+.post-excerpt {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.post-meta-header {
+	border-bottom: solid;
+    border-color: #424242;
+	border-width: 1px;
+}
+
+@media(min-width:768px){
+    .single-page-content {
+        margin-top: -185px;
+    }
+}
+
+/* search page template */
+.search-results-list {
+    list-style: none;
+}
+
+.search-title a {
+    text-decoration: none;
+    color: #222;
+}
+
+.search-title a:focus,
+.search-title a:hover {
+    color: #006064;
+}
+
+/* calendar page template */
+#calendar {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #fafafa;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+#calendar h2 {
+	font-weight: 100;
+}
+
+.fc-toolbar {
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.fc-left h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.fc-head th {
+	font-family: 'Roboto', sans-serif;
+    background: #424242;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fc-content {
+	font-family: 'Roboto', sans-serif;
+    background: #ffe0b2;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.fc-title,
+.fc-time {
+	color: #006064;
+}
+
+.fc-day-top a {
+	color: #222;
+}
+
+.fc-day-top a:hover {
+	text-decoration: none;
+}
+
+.fc-unthemed td.fc-today a {
+	background-color: #006064;
+    color: #fff;
+    border-radius: 50%;
+	width: 20px;
+	text-align: center;
+}
+
+/* additional div above footer - not actually part of the footer element */
+#footer-top {
+    background-color: #404040;
+    margin-bottom: -10px;
+}
+
+#footer-top ul {
+    list-style: none;
+    padding: 1em;
+    margin-top: -20px;
+}
+
+#footer-top ul li {
+    line-height: 2em;
+}
+
+#footer-top a {
+    color: #b8b7b4;
+    text-decoration: none;
+}
+
+#footer-top a:focus,
+#footer-top a:hover {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+#footer-top .fa {
+    top: 2px;
+    left: -24px;
+    padding-right: 4px;
+    width: 23px;
+}
+
+#footer-top p {
+    text-align: center;
+}
+
+@media(min-width:960px) {
+    #footer-top {
+        padding-left: 200px;
+    }
+
+    #footer-text-logo {
+        max-width: 85%;
+    }
+
+    #footer-logo-wrapper,
+    #footer-menu-wrapper {
+        display: inline-block;
+        width: 50%;
+        height: 50%;
+    }
+
+    #footer-logo-wrapper {
+        height: 50%;
+        float: left;
+    }
+
+    #footer-menu-wrapper {
+        padding: 1em;
+    }
+}
+
+/* footer */
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #000022;
+}
+
+footer p,
+footer h1
+footer h2, 
+footer h3,
+footer h4 {
+    color: #e0e0e0;
+    text-align: center;
+}
+
+footer p {
+	font-size: .85em;
+    padding: .5em;
+	font-weight: 700;
+	text-align: right;
+	letter-spacing: .1em;
+}
+
+@media(max-width:480px) {
+	footer p {
+        font-size: .65em;
+    }
+}
+
+/* WordPress overrides */
+img.alignright { 
+    float: right; 
+    margin: 0 0 1em 1em; 
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2); 
+}
+
+img.alignleft { 
+    float: left; 
+    margin: 0 1em 1em 0; 
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+img.aligncenter { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.alignright { 
+    float: right;
+}
+
+.alignleft { 
+    float: left;
+}
+
+.aligncenter { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.wp-widgets li {
+    list-style: none;
+}
+
+.wp-widgets a {
+    text-decoration: none;
+    color: #222;
+    border-bottom: solid;
+    border-width: 3px;
+    font-size: 1.25em;
+}
+
+.wp-widgets a:focus,
+.wp-widgets a:hover {
+    color: #fafafa; 
+    background-color: #222;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #fafafa;   
+}
+
+/* redesign styles - these need integrated into the main file above when finished */
+hr.small {
+    max-width: 100px;
+}
+
+#about {
+    color: #222;
+}
+
+#about h2 {
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#about p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    #about-svg {
+        max-width: 15%;
+    }
+
+    .about-svg-container {
+        padding-left: 325px;
+    }
+}
+
+@media(max-width:480px) {
+    #about-svg {
+        max-width: 35%;
+    }
+
+    .about-svg-container {
+        padding-left: 145px;
+    }
+}
+
+.about-svg-container {
+    padding-left: 525px;
+}
+
+#services {
+    color: #fff;
+    background-color: #006064;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.inner-icon {
+    color: #006064;
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #222;
+    background-color: rgb(255,255,255);
+}
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/meditation-banner.jpeg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-item {
+    margin-bottom: 30px;
+}
+
+.img-info {
+    margin: 0 auto;
+}
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
