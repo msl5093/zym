@@ -198,7 +198,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
 }
 
 header .header-content {
@@ -727,11 +726,20 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/meditation-banner.jpeg) no-repeat center center scroll;
+    background: url(../img/meditation-banner.jpeg);
+    background-repeat: no-repeat;
+
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    opacity: 0.8;
 }
 
 .text-vertical-center {
@@ -746,6 +754,10 @@ hr.small {
 
 .img-info {
     margin: 0 auto;
+}
+
+.img-info:hover {
+    opacity: 0.8;
 }
 
 .call-to-action {

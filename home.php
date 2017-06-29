@@ -77,7 +77,7 @@
 							<h4>
 								<strong>Find me on Facebook</strong>
 							</h4>
-							<p>Follow me on Facebook to get the latest updates.</p>
+							<p>Follow me on Facebook to get the latest updates, posts, and important information.</p>
 							<br />
 							<a href="#" class="btn btn-light">Facebook</a>
 						</div>
@@ -93,12 +93,14 @@
 		<h1>Vertically Centered Text</h1>
 	</div>
 </aside>
+<br />
+<br />
+<br />
 
 <section id="grid">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 text-center">
-				<h2>Info</h2>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="info-item">
@@ -120,13 +122,11 @@
 	</div>
 </section>
 <br />
-
 <aside class="call-to-action">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h3>The buttons below are impossible to resist.</h3>
-				<!--a href="#" class="btn btn-lg btn-light">Click Me!</a-->
+				<!--a href="#" class="btn btn-lg btn-light">Click</a-->
 				<a href="#top" class="btn btn-lg btn-dark">TOP <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 			</div>
 		</div>
