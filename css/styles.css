@@ -421,11 +421,11 @@ header .header-content .header-content-inner hr {
 	border-width: 1px;
 }
 
-@media(min-width:768px){
+/*@media(min-width:768px){
     .single-page-content {
         margin-top: -185px;
     }
-}
+}*/
 
 /* search page template */
 .search-results-list {

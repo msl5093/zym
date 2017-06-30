@@ -37,7 +37,7 @@
 							</h4>
 							<p>Email is a quick and easy way to get in touch regarding classes and events.</p>
 							<br />
-							<a href="#" class="btn btn-light">Email</a>
+							<a href="mailto:reneerudolphyoga@gmail.com?Subject=Zym%20Yoga" target="_top" class="btn btn-light">Email</a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
@@ -51,7 +51,7 @@
 							</h4>
 							<p>Check out the calendar page for upcoming events and happenings.</p>
 							<br />
-							<a href="#" class="btn btn-light">Schedule</a>
+							<a href="https://www.zenyamamama.com/schedule/" class="btn btn-light">Schedule</a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
@@ -65,7 +65,7 @@
 							</h4>
 							<p>Sign up for Vinyasa mat, Mommy and Me, and aerial classes!</p>
 							<br />
-							<a href="#" class="btn btn-light">Gaia Kosha</a>
+							<a href="http://www.gaiakosha.com/" target="_blank" class="btn btn-light">Gaia Kosha</a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
@@ -79,7 +79,7 @@
 							</h4>
 							<p>Follow me on Facebook to get the latest updates, posts, and important information.</p>
 							<br />
-							<a href="#" class="btn btn-light">Facebook</a>
+							<a href="https://www.facebook.com/reneerudolphyoga/" target="_blank" class="btn btn-light">Facebook</a>
 						</div>
 					</div>
 				</div>
