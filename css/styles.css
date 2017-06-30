@@ -180,6 +180,16 @@ a {
     }
 }
 
+@media(min-width:375px) and (max-width:667px) and (orientation:landscape) {
+    #nav-logo-svg {
+        max-width: 7%;
+    }
+
+    #about-svg {
+        max-width: 0%;
+    }
+}
+
 /* hero */
 header {
 	background-image: url(../img/header-banner.jpeg);
