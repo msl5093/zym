@@ -348,6 +348,7 @@ header .header-content .header-content-inner hr {
     color: #fff;
     background: #222;
     padding: 5px;
+    float: left;
 }
 
 .feat-img-container a:focus,

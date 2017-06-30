@@ -30,7 +30,7 @@
 		<br />
 		<br />
 		<div class="col-md-4">
-			<?php
+			<!--?php
 				if ( has_post_thumbnail() ) 
 				{ 
 					echo "<figure>" . the_post_thumbnail( 'medium_large', [ 'class' => 'featured-image' ] ) . "</figure>";
@@ -41,7 +41,7 @@
 					echo "<img src='" . get_template_directory_uri() . "/dist/img/banner.jpg' alt='test' class='featured-image' />";
 					echo "<figcaption class='img-caption'><p><i>Phasellus elit odio, feugiat eu luctus in, euismod a orci. Mauris facilisis, metus sit amet efficitur feugiat, velit nunc scelerisque nunc, ut consectetur libero sapien ut neque.</i></p></figcaption>";	
 				}
-			?>
+			?-->
 		</div>
 	</div>
 	<br />

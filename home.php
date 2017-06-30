@@ -88,13 +88,13 @@
 	</div>
 </section>
 
-<aside class="callout">
+<!--aside class="callout">
 	<div class="text-vertical-center">
 		<h1>Vertically Centered Text</h1>
 	</div>
 </aside>
 <br />
-<br />
+<br /-->
 <br />
 
 <section id="grid">
@@ -104,16 +104,26 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="info-item">
-							<a href="https://www.zenyamamama.com/about/">
+							<div class="feat-img-container">
+								<div class="feat-img-container-inner">
+									<h2><a href="https://www.zenyamamama.com/about/">About</a></h2>
+								</div>
+							</div>
+							<!--a href="https://www.zenyamamama.com/about/">
 								<img class="img-info img-responsive" src="<?php echo get_template_directory_uri(); ?>/dist/img/about.jpeg">
-							</a>
+							</a-->
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="info-item">
-							<a href="https://www.zenyamamama.com/what-is-a-yama/">
+							<div class="feat-img-container1">
+								<div class="feat-img-container-inner">
+									<h2><a href="https://www.zenyamamama.com/welcome/">Welcome</a></h2>
+								</div>
+							</div>
+							<!--a href="https://www.zenyamamama.com/about/">
 								<img class="img-info img-responsive" src="<?php echo get_template_directory_uri(); ?>/dist/img/about.jpeg">
-							</a>
+							</a-->
 						</div>
 					</div>
 				</div>

@@ -58,12 +58,12 @@
 	    </div>
     </nav>
 	
-	<header>
+	<<header>
         <div class="header-content">
 			<div class="header-content-inner">
 				<h1>Zen Yama Mama</h1>
-				<p>RYT-200 Certified Yoga Instruction</p>
-				<h3>Renee Rudolph Yoga</h3>
+				<p>Renee Rudolph Yoga</p>
+				<a href="#about" class="btn btn-dark btn-lg"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
     </header>

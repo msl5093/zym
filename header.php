@@ -59,7 +59,7 @@
 			<div class="header-content-inner">
 				<h1>Zen Yama Mama</h1>
 				<p>Renee Rudolph Yoga</p>
-				<a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+				<a href="#about" class="btn btn-dark btn-lg"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
     </header>
