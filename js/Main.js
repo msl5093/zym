@@ -51,7 +51,7 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 						allDay: false
 					},
 					{
-						title: 'Beginners Mat Yoga',
+						title: 'Vinyasa Mat Yoga',
 						start: '2017-06-21T18:30:00',
 						end: '2017-06-21T19:30:00',
 						allDay: false,
@@ -70,6 +70,13 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 						allDay: false
 					},
 					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-06-28T18:30:00',
+						end: '2017-06-28T19:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
+					},
+					{
 						title: 'Yoga In the Park - Norlo',
 						start: '2017-06-29T10:30:00',						
 						end: '2017-06-29T11:30:00',
@@ -83,10 +90,24 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 						url: 'https://www.facebook.com/redheiferwinery/'
 					},
 					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-01T10:30:00',
+						end: '2017-07-01T11:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
+					},
+					{
 						title: 'Yoga In the Park - Renfrew',
 						start: '2017-07-04T10:30:00',						
 						end: '2017-07-04T11:30:00',
 						allDay: false
+					},
+					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-05T18:30:00',
+						end: '2017-07-05T19:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
 					},
 					{
 						title: 'Yoga In the Park - Norlo',
@@ -102,10 +123,24 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 						url: 'https://www.facebook.com/redheiferwinery/'
 					},
 					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-08T10:30:00',
+						end: '2017-07-08T11:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
+					},
+					{
 						title: 'Yoga In the Park - Renfrew',
 						start: '2017-07-11T10:30:00',						
 						end: '2017-07-11T11:30:00',
 						allDay: false
+					},
+					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-12T18:30:00',
+						end: '2017-07-12T19:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
 					},
 					{
 						title: 'Yoga In the Park - Norlo',
@@ -121,16 +156,37 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 						url: 'https://www.facebook.com/redheiferwinery/'
 					},
 					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-15T10:30:00',
+						end: '2017-07-15T11:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
+					},
+					{
 						title: 'Yoga In the Park - Renfrew',
 						start: '2017-07-18T10:30:00',						
 						end: '2017-07-18T11:30:00',
 						allDay: false
 					},
 					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-19T18:30:00',
+						end: '2017-07-19T19:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
+					},
+					{
 						title: 'Yoga In the Park - Norlo',
 						start: '2017-07-20T10:30:00',						
 						end: '2017-07-20T11:30:00',
 						allDay: false
+					},
+					{
+						title: 'Vinyasa Mat Yoga',
+						start: '2017-07-22T10:30:00',
+						end: '2017-07-22T11:30:00',
+						allDay: false,
+						url: 'http://www.gaiakosha.com/class-schedule.html'
 					}
 				]
 			});
