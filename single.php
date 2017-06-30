@@ -11,7 +11,7 @@
 <br />
 <br />
 <!-- content -->
-<div class="container">
+<div class="container" id="single-content">
 	<div class="row">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<div class="col-md-8">

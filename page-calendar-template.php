@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container" id="about">
     <div class="row">
         <div class="col-md-12">
             <h2 class="post-title">Schedule</h2>
