@@ -74,6 +74,63 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 						start: '2017-06-29T10:30:00',						
 						end: '2017-06-29T11:30:00',
 						allDay: false
+					},
+					{
+						title: 'Happy Hour Yoga - Red Heifer',
+						start: '2017-06-29T18:00:00',						
+						end: '2017-06-29T19:00:00',
+						allDay: false,
+						url: 'https://www.facebook.com/redheiferwinery/'
+					},
+					{
+						title: 'Yoga In the Park - Renfrew',
+						start: '2017-07-04T10:30:00',						
+						end: '2017-07-04T11:30:00',
+						allDay: false
+					},
+					{
+						title: 'Yoga In the Park - Norlo',
+						start: '2017-07-06T10:30:00',						
+						end: '2017-07-06T11:30:00',
+						allDay: false
+					},
+					{
+						title: 'Happy Hour Yoga - Red Heifer',
+						start: '2017-07-06T18:00:00',						
+						end: '2017-07-06T19:00:00',
+						allDay: false,
+						url: 'https://www.facebook.com/redheiferwinery/'
+					},
+					{
+						title: 'Yoga In the Park - Renfrew',
+						start: '2017-07-11T10:30:00',						
+						end: '2017-07-11T11:30:00',
+						allDay: false
+					},
+					{
+						title: 'Yoga In the Park - Norlo',
+						start: '2017-07-13T10:30:00',						
+						end: '2017-07-13T11:30:00',
+						allDay: false
+					},
+					{
+						title: 'Happy Hour Yoga - Red Heifer',
+						start: '2017-07-13T18:00:00',						
+						end: '2017-07-13T19:00:00',
+						allDay: false,
+						url: 'https://www.facebook.com/redheiferwinery/'
+					},
+					{
+						title: 'Yoga In the Park - Renfrew',
+						start: '2017-07-18T10:30:00',						
+						end: '2017-07-18T11:30:00',
+						allDay: false
+					},
+					{
+						title: 'Yoga In the Park - Norlo',
+						start: '2017-07-20T10:30:00',						
+						end: '2017-07-20T11:30:00',
+						allDay: false
 					}
 				]
 			});
@@ -115,36 +172,6 @@ if (typeof(Jasper) === 'undefined' || Jasper === null)
 					});
 				}
 				}
-			});
-		},
-
-		navSvgConverter: function () {
-			$('img.svg').each(function () {
-				var $img = jQuery(this);
-            	var imgId = $img.attr('id');
-            	var imgClass = $img.attr('class');
-            	var imgURL = $img.attr('src');
-
-				$.get(imgURL, function(data) {
-					// Get the SVG tag, ignore the rest
-					var $svg = $(data).find('svg');
-
-					// Add replaced image's ID to the new SVG
-					if(typeof imgId !== 'undefined') {
-						$svg = $svg.attr('id', imgId);
-					}
-					// Add replaced image's classes to the new SVG
-					if(typeof imgClass !== 'undefined') {
-						$svg = $svg.attr('class', imgClass+' replaced-svg');
-					}
-
-					// Remove any invalid XML tags as per http://validator.w3.org
-					$svg = $svg.removeAttr('xmlns:a');
-
-					// Replace image with new SVG
-					$img.replaceWith($svg);
-
-            	}, 'xml');
 			});
 		}	
 	};
