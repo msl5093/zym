@@ -9,7 +9,7 @@
 				<div class="about-svg-container">
 					<img src="<?php echo get_template_directory_uri(); ?>/dist/img/noun_572881_cc_blk.svg" alt="zym" id="about-svg" />
 				</div>
-				<h2>Renee Rudolph Yoga</h2>
+				<h2>Renee | Rudolph | Yoga</h2>
 				<br />
 				<p class="lead">My name is Renee Rudolph and I am a yoga teacher based out of Chambersburg, PA. I completed my <a href="https://www.yogaalliance.org/Credentialing/For_Teachers/RYT_200" target="_blank" class="external-link">RYT-200 (registered yoga teacher) training <i class="fa fa-external-link"></i></a> through <a href="http://ommyyoga.com/" target="_blank" class="external-link">Om My Yoga Academy <i class="fa fa-external-link"></i></a> in March 2017 and have been teaching since November 2016.</p>
 			</div>

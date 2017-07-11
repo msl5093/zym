@@ -790,3 +790,53 @@ hr.small {
     color: #333;
     background-color: rgb(255,255,255);
 }
+
+/* contact page styles */
+@media(min-width:768px) {
+    #contact-section .service-item {
+        width: 75%;   
+    }
+
+    #contact-section .col-md-12 {
+        padding-left: 255px;
+    }
+
+    .contact-header {
+        
+    }
+}
+
+@media(max-width:480px) {
+    #contact-section .service-item {
+        margin: 10px;   
+    }
+}
+
+#contact-section h4 {
+    font-size: 2em;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+#contact-section .fa-envelope,
+#contact-section .fa-phone {
+    color: #fafafa;
+}
+
+#contact-section a {
+    background: #fff;
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#contact-section a:focus,
+#contact-section a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.contact-desc p {
+    letter-spacing: .00625em;
+    line-height: 1.6;
+}

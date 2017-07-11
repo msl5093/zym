@@ -8,6 +8,7 @@
 			<li><a class="page-scroll" href="https://www.zenyamamama.com/about/"><i class="fa fa-id-card" aria-hidden="true"></i>About</a></li>
 			<li><a class="page-scroll" href="https://www.zenyamamama.com/what-is-a-yama/"><i class="fa fa-question" aria-hidden="true"></i>What Is a Yama?</a></li>
 			<li><a class="page-scroll" href="https://www.zenyamamama.com/schedule/"><i class="fa fa-calendar" aria-hidden="true"></i>Schedule</a></li>
+			<li><a class="page-scroll" href="https://www.zenyamamama.com/contact/"><i class="fa fa-calendar" aria-hidden="true"></i>Contact</a></li>
 			<li><a class="page-scroll" href="https://www.facebook.com/reneerudolphyoga/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>Renee Rudolph Yoga <i class="fa fa-external-link"></i></a></li>
 		</ul>
 	</div>

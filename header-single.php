@@ -53,6 +53,7 @@
                     <li><a class="page-scroll" href="https://www.zenyamamama.com/about/">About</a></li>
                     <li><a class="page-scroll" href="https://www.zenyamamama.com/what-is-a-yama/">What Is a Yama?</a></li>
                     <li><a class="page-scroll" href="https://www.zenyamamama.com/schedule/">Schedule</a></li>
+					<li><a class="page-scroll" href="https://www.zenyamamama.com/contact/">Contact</a></li>
                 </ul>
             </div>		
 	    </div>

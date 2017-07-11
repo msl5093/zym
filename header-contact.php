@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>Zen Yama Mama | Renee Rudolph Yoga</title>
+	
+	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<title><?php the_title(); ?> | Renee Rudolph Yoga</title>
+	<?php endwhile; endif; ?>
 	
 	<!-- utils.css -->
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/utils.css">
@@ -21,6 +24,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
 	
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
@@ -28,7 +32,7 @@
 	<?php wp_head(); ?>
 	
 </head>
-<body id="top">
+<body>
 	<nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -38,9 +42,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-				<div class"navbar-left">
+                <div class"navbar-left">
 					<div class="nav-logo-wrapper">
-						<a href="https://www.zenyamamama.com"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/noun_572881_cc.svg" alt="zym" id="nav-logo-svg"/></a>
+						<a href="https://www.zenyamamama.com/"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/noun_572881_cc.svg" alt="zym" id="nav-logo-svg"/></a>
 					</div>
 				</div>
             </div>
@@ -51,16 +55,16 @@
                     <li><a class="page-scroll" href="https://www.zenyamamama.com/schedule/">Schedule</a></li>
 					<li><a class="page-scroll" href="https://www.zenyamamama.com/contact/">Contact</a></li>
                 </ul>
-            </div>	
+            </div>		
 	    </div>
     </nav>
 	
-	<header>
+	<<header>
         <div class="header-content">
 			<div class="header-content-inner">
 				<h1>Zen Yama Mama</h1>
 				<p>Renee Rudolph Yoga</p>
-				<a href="#about" class="btn btn-dark btn-lg"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+				<a href="#single-content" class="btn btn-dark btn-lg"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
 			</div>
 		</div>
-    </header>
+    </header>s
