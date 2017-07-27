@@ -1,0 +1,82 @@
+/* global */
+body {
+    background: #f9f9f9;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    letter-spacing: .00625em;
+    line-height: 1.6;
+}
+
+.btn {
+    font-family: "Inconsolata", monospace;    
+}
+
+.three-d-box {
+    box-shadow: 3px 3px 0px 0px #000;
+}
+
+/* this is annoying - fontawesome */
+.fa {
+    font-size: 1.25em;
+}
+
+/* nav */
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#brand h3 {
+    margin-top: .25rem;
+}
+
+#brand p {
+    float: right;
+    margin-top: -2.95em;
+}
+
+/* schedule */
+#schedule img {
+    max-width: 99%;
+}
+
+/* post */
+#post img {
+    max-width: 99%;
+}
+
+/* contact */
+#contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+#contact a:focus,
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+footer p {
+    letter-spacing: .0625em;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {  }
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {  }
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {  }
