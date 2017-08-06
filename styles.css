@@ -39,11 +39,12 @@ nav {
 
 #brand h3 {
     margin-top: .25rem;
+    font-family: "Raleway", sans-serif;
 }
 
 #brand p {
     float: right;
-    margin-top: -2.95em;
+    margin-top: -5.75em;
 }
 
 /* schedule */
