@@ -14,9 +14,6 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-
         <!-- css -->
         <link rel="stylesheet" href="node_modules/tachyons/css/tachyons.css">        
         <link rel="stylesheet" href="styles.css">
@@ -25,20 +22,43 @@
     </head>
     <body id="top">
         <nav class="pb2">
-            <div class="fl w-80 ph1 mt1-m" id="brand">
+            <div class="fl w-70 ph1 mt1-m" id="brand">
                 <h3 class="f1">RRY</h3>
-                <p class="f5">Yoga Instruction</p>
+                <!--p class="f5">Yoga Instruction</p-->
             </div> 
-            <div class="fl w-20 tr pa2">
-                <!--i class="fa fa-bars" aria-hidden="true"></i-->
-                <i class="fa fa-plus mt2" aria-hidden="true"></i>
+            <div class="fl w-30 tr pa2">
+                <i class="fa fa-facebook-official mt2" aria-hidden="true"></i>
+                <i class="fa fa-instagram mt2" aria-hidden="true"></i>
+                <i class="fa fa-envelope mt2" aria-hidden="true"></i>
             </div>
         </nav>
         <br />
         <br />
         <br />
 
-        <div class="mw9 w-80-l w-90 center cf pt4">
+        <div class="mw9 w-70-l w-90 center cf pt4">            
+            <!-- about -->
+            <section class="" id="about">
+                <h3 class="f3 di white bg-black pa2">Schedule</h3>
+                <h3 class="f3 di white bg-black pa2">Contact</h3>
+                <h3 class="f3 di white bg-black pa2">Item3</h3>
+                <br />
+                <br />
+                <br />
+                <article class="flex flex-wrap flex-row flex-row-l">
+                    <div class="flex flex-wrap flex-column">
+                        <p class="f5 first-p">
+                            Renee Rudolph is a yoga instructor and teacher working in south central Pennsylvania. 
+                            Based out of Chambersburg, Renee offers yoga instruction and guidance for all experience levels and believes that
+                            yoga is not just a physical practice, but rather a way to maintain balance in life and keep a steady perspective on my life as a part of the whole.
+                        </p>
+                        <p class="f5">
+                            Actively teaching since 2016, Renee offers instruction in Vinyasa flow and aerial yoga. She can be contacted via email, Faceook, or Instagram.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
             <!-- content -->
             <section id="content">
                 <!-- schedule -->
@@ -73,13 +93,36 @@
                     </div>
                     <div class="pa4-ns pa3 w-30-l w-100 flex flex-wrap flex-column bl bb brn-l br">
                         <h3 class="sans-serif-heading f2-ns f2 mb3-ns mb2">
-                            <a class="link black" href="#">Post</a>
+                            <a class="link black" href="#">What Is a Yama?</a>
                         </h3>
                         <div class="mw5-l f6 flex-grow mb0-l mb4-ns mb3 lh-copy"><!-- relative -->
-                            Branding, Design &amp; Development
+                            Post details
                         </div>
                         <div>
-                            <a class="link dib bg-black white ph3 pv2 hover-bg-white hover-black ba b--black f5 btn" href="#">Details</a>
+                            <!--a class="link dib bg-black white ph3 pv2 hover-bg-white hover-black ba b--black f5 btn" href="#">Details</a-->
+                            <!--a class="link dib black ph3 pv2 hover-bg-white ba b--transparent ml2 outline f5" target="_blank" href="#">
+                                Visit<span> ↗</span>
+                            </a-->
+                        </div>
+                    </div>
+                </article>
+
+                <!-- contact -->
+                <article class="flex flex-wrap flex-row flex-row-reverse-l bg-white" id="contact">
+                    <div class="w-70-l bg-black"><!-- relative -->
+                        <a href="#">
+                            <img class="bb br bl bt b--black" src="img/meditation-banner.jpeg" alt="meditation">
+                        </a>
+                    </div>
+                    <div class="pa4-ns pa3 w-30-l w-100 flex flex-wrap flex-column bl bb brn-l br">
+                        <h3 class="sans-serif-heading f2-ns f2 mb3-ns mb2">
+                            <a class="link black" href="#">Contact</a>
+                        </h3>
+                        <div class="mw5-l f6 flex-grow mb0-l mb4-ns mb3 lh-copy"><!-- relative -->
+                            Post details
+                        </div>
+                        <div>
+                            <!--a class="link dib bg-black white ph3 pv2 hover-bg-white hover-black ba b--black f5 btn" href="#">Details</a-->
                             <!--a class="link dib black ph3 pv2 hover-bg-white ba b--transparent ml2 outline f5" target="_blank" href="#">
                                 Visit<span> ↗</span>
                             </a-->
@@ -87,21 +130,9 @@
                     </div>
                 </article>
             </section>   
-
-            <!-- about -->
-            <section class="pv6" id="about">
-                <article class="flex flex-wrap flex-row flex-row-reverse-l">
-                    <div class="pa4-ns pa3 w-70-l w-100 flex flex-wrap flex-column">
-                        Renee Rudolph is a yoga instructor and teacher from the Chambersburg/Carlisle/Harrisburg area in south central Pennsylvania.
-                    </div>
-                    <div class="w-30-l"><!-- relative -->
-                        <h3 class="sans-serif-heading f2-ns f2 mb3-ns mb2">About</h3>
-                    </div>
-                </article>
-            </section>
             
-            <!-- contact -->
-            <section id="contact">
+            <!-- questions -->
+            <section id="questions">
                 <div class="pa3">
                     <div class="outline tc pa2">
                         <p class="f3-ns f5 lh-title">Questions?</p>
@@ -110,12 +141,24 @@
                 </div>       
             </section>
         </div>
+        <br />
 
         <!-- footer -->
-        <div class="fl w-100 w-100-ns pt4 pl2 pr2" id="footer">
-            <footer class="tc">
-                <p class="f7">All content copyright Renee Rudolph Yoga &copy;2017. | All rights reserved.</p>
-            </footer>
-        </div>
+        <footer id="footer">
+            <div class="w-100 center ph3-ns bg-black white">
+                <div class="cf ph2-ns">
+                    <div class="fl w-100 w-50-ns pa2">
+                        <h2>Renee Rudolph Yoga</h2>
+                        <p class="f6 gray footer-info">reneerudolphyoga@gmail.com</p>
+                        <p class="f6 gray footer-info">Facebook</p>
+                        <p class="f6 gray footer-info">Instagram</p>
+                        <p class="f6 gray footer-info">Schedule</p>
+                    </div>
+                    <div class="fl w-100 w-50-ns pa2">
+                        <p class="f7 gray tc">&copy;2017. | All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

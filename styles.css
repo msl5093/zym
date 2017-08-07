@@ -16,12 +16,26 @@ p {
     line-height: 1.6;
 }
 
+a {
+    -webkit-transition: all 0.33333s ease-in-out;
+    -moz-transition: all 0.33333s ease-in-out;
+    -o-transition: all 0.33333s ease-in-out;
+    transition: all 0.33333s ease-in-out;
+}
+
 .btn {
     font-family: "Inconsolata", monospace;    
 }
 
 .three-d-box {
     box-shadow: 3px 3px 0px 0px #000;
+}
+
+.squiggle-line {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg id='underline-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-50%);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-size: auto 3px;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
 }
 
 /* this is annoying - fontawesome */
@@ -57,20 +71,34 @@ nav {
     max-width: 99%;
 }
 
+#about .first-p::first-letter {
+    color: #000;
+    border: solid 1px #000;
+    padding: .25em;
+    float: left;
+    font-size: 4em;
+    margin: 0 .2em 0 0;
+}
+
 /* contact */
-#contact a {
+#questions a {
     text-decoration: none;
     color: #000;
 }
 
-#contact a:focus,
-#contact a:hover {
+#questions a:focus,
+#questions a:hover {
     text-decoration: underline;
 }
 
 /* footer */
 footer p {
     letter-spacing: .0625em;
+}
+
+.footer-info {
+    font-family: "Inconsolata", Courier New, Courier, monospace;
+    line-height: initial;
 }
 
 /* Larger than mobile screen */
