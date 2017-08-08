@@ -16,13 +16,6 @@ p {
     line-height: 1.6;
 }
 
-a {
-    -webkit-transition: all 0.33333s ease-in-out;
-    -moz-transition: all 0.33333s ease-in-out;
-    -o-transition: all 0.33333s ease-in-out;
-    transition: all 0.33333s ease-in-out;
-}
-
 .btn {
     font-family: "Inconsolata", monospace;    
 }
@@ -46,19 +39,35 @@ a {
 /* nav */
 nav {
     overflow: hidden;
-    position: fixed;
-    top: 0;
+    /*position: fixed;
+    top: 0;*/
     width: 100%;
 }
 
 #brand h3 {
     margin-top: .25rem;
     font-family: "Raleway", sans-serif;
+    word-wrap: break-word;
+}
+
+#brand a {
+    text-decoration: none;
+    color: #000;
 }
 
 #brand p {
     float: right;
     margin-top: -5.75em;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: .00625em;
 }
 
 /* schedule */
