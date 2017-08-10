@@ -1,6 +1,5 @@
 /* global */
 body {
-    background: #f9f9f9;
     color: #000;
     font-family: "Raleway", sans-serif;
 }
@@ -16,6 +15,10 @@ p {
     line-height: 1.6;
 }
 
+hr {
+    width: 75%;
+}
+
 .btn {
     font-family: "Inconsolata", monospace;    
 }
@@ -25,10 +28,20 @@ p {
 }
 
 .squiggle-line {
-    background: url("data:image/svg+xml;charset=utf8,%3Csvg id='underline-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-50%);}}%3C/style%3E%3Cpath fill='none' stroke='%23000000' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg id='underline-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-50%);}}%3C/style%3E%3Cpath fill='none' stroke='%23000' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-size: auto 3px;
     background-position: 0 100%;
     background-repeat: repeat-x;
+}
+
+.stripey {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg id='stripe-svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2' stroke='%23000' stroke-width='1' /%3E%3C/svg%3E");
+    background-size: 10px 10px;
+}
+
+.make-circle {
+    border-radius: 50%;
+    height: 10rem;
 }
 
 /* this is annoying - fontawesome */
@@ -39,8 +52,6 @@ p {
 /* nav */
 nav {
     overflow: hidden;
-    /*position: fixed;
-    top: 0;*/
     width: 100%;
 }
 
@@ -61,7 +72,7 @@ nav {
 }
 
 nav ul {
-    display: flex;
+    float: right;
 }
 
 nav li a {
@@ -80,24 +91,13 @@ nav li a {
     max-width: 99%;
 }
 
-#about .first-p::first-letter {
+.first-p::first-letter {
     color: #000;
     border: solid 1px #000;
     padding: .25em;
     float: left;
     font-size: 4em;
     margin: 0 .2em 0 0;
-}
-
-/* contact */
-#questions a {
-    text-decoration: none;
-    color: #000;
-}
-
-#questions a:focus,
-#questions a:hover {
-    text-decoration: underline;
 }
 
 /* footer */
