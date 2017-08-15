@@ -22,8 +22,12 @@ hr {
     font-family: "Inconsolata", monospace;    
 }
 
-.three-d-box {
+.shadow-box-1 {
     box-shadow: 3px 3px 0px 0px #000;
+}
+
+.shadow-box-2 {
+    box-shadow: 5px 5px 0px 0px #000;
 }
 
 .squiggle-line {
@@ -97,6 +101,16 @@ nav li a {
     float: left;
     font-size: 4em;
     margin: 0 .2em 0 0;
+}
+
+#questions a {
+    text-decoration: none;
+    color: #000;
+}
+
+#questions a:hover,
+#questions a:focus {
+    text-decoration: underline;
 }
 
 /* footer */
