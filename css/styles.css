@@ -51,6 +51,19 @@ a {
     background-color: #ffe0b2;
 }
 
+.btn-primary {
+    background-color: #006064;
+}
+
+.btn-primary a {
+    color: #fafafa;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #006064;
+}
+
 /* navbar */
 .navbar-default {
     background-color: rgb(51, 51, 51);

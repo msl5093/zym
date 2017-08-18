@@ -49,9 +49,9 @@
 							<h4>
 								<strong>Schedule</strong>
 							</h4>
-							<p>Check out the calendar page for upcoming events and happenings.</p>
+							<p>Click below to download the current month's schedule of classes and events.</p>
 							<br />
-							<a href="https://www.zenyamamama.com/schedule/" class="btn btn-light">Schedule</a>
+							<a href="<?php echo get_template_directory_uri(); ?>/dist/August-2017-schedule.pdf" class="btn btn-light" download>Schedule</a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">

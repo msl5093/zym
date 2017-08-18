@@ -16,7 +16,7 @@
 
 <footer class="footer">
 	<p>
-		All content copyright Zen Yama Mama &copy;2017. | All rights reserved.
+		All content copyright Renee Rudolph Yoga &copy;2017. | All rights reserved.
 	</p>
 </footer>
 
