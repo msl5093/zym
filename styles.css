@@ -22,6 +22,14 @@ hr {
     font-family: "Inconsolata", monospace;    
 }
 
+.playfair {
+    font-family: "Playfair Display", serif;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
 .shadow-box-1 {
     box-shadow: 3px 3px 0px 0px #000;
 }
